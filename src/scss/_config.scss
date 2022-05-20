@@ -1,0 +1,99 @@
+$maincolor: #623b1c;
+$sec-color: #f6eddd;
+$dark-color: #14120f;
+$dark-milk: #caad8c;
+
+$font-sizes: ();
+
+@mixin mainFont {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@mixin secFont {
+  font-family: 'Plus Jakarta Display', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+li {
+  list-style: none;
+}
+
+@mixin flex($direction) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin btn {
+  position: relative;
+  background: c.$maincolor;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: -0;
+    background: c.$dark-milk;
+    border-radius: 5px;
+    @include c.transition;
+    z-index: 1;
+  }
+
+  &:hover:after {
+    height: 100%;
+  }
+  & a {
+    font-size: map-get(c.$font-sizes, btn-texts);
+    color: c.$sec-color;
+  }
+}
+
+@mixin transition {
+  transition: all 700ms ease-in-out;
+}
+
+@mixin small-PCs {
+  @media screen and (max-width: 1090px) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobiles {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin small-mobiles {
+  @media screen and (max-width: 420px) {
+    @content;
+  }
+}
+
+@mixin x-small-mobiles {
+  @media screen and (min-width: 200px) and (max-width: 370px) {
+    @content;
+  }
+}
