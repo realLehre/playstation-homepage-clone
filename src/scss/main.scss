@@ -78,3 +78,16 @@ body {
     }
   }
 }
+
+.signin-container {
+  @include c.flex(space-between, center, row);
+
+  & .signin {
+    background: c.$gray-darker-color;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 1.6em;
+    text-transform: capitalize;
+  }
+}
