@@ -93,12 +93,9 @@ body {
 }
 
 .links-tabs-container {
-  @include c.flex(space-between, center, row);
-  width: 100%;
   position: absolute;
+  width: 100%;
   top: 90px;
-  // left: 50%;
-  // transform: translateX(-50%);
 }
 
 .link-tab {

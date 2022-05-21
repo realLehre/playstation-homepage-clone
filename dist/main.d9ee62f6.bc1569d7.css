@@ -134,12 +134,8 @@ body {
 }
 
 .links-tabs-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  width: 100%;
   position: absolute;
+  width: 100%;
   top: 90px;
 }
 
