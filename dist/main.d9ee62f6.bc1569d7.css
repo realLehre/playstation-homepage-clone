@@ -119,10 +119,10 @@ body {
   margin-right: 10px;
 }
 .links-container .links li:hover {
-  color: #509ddf;
+  color: #0568be;
 }
 .links-container .links li:hover i {
-  color: #509ddf;
+  color: #0568be;
 }
 .links-container .links li i {
   transform: translateY(4px);
@@ -172,11 +172,34 @@ body {
 .link-tab .link-tab-ad-info {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   margin-top: 40px;
-  border-top: 2px solid black;
+  box-shadow: -0.5px -0.5px 0px rgba(0, 0, 0, 0.3);
+  padding: 15px 0;
+}
+.link-tab .link-tab-ad-info .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.link-tab .link-tab-ad-info .info .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #0568be;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.link-tab .link-tab-ad-info .info:not(:last-child) {
+  margin-right: 30px;
+}
+.link-tab .link-tab-ad-info .info:hover {
+  color: #0568be;
 }
 
 .signin-container {

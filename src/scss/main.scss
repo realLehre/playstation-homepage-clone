@@ -126,9 +126,34 @@ body {
 
   .link-tab-ad-info {
     width: 100%;
-    @include c.flex(space-between, center, row);
+    @include c.flex(center, center, row);
     margin-top: 40px;
-    border-top: 2px solid black;
+    // border-top: 0.5px solid c.$gray-color;
+    box-shadow: -0.5px -0.5px 0px rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+
+    & .info {
+      @include c.flex(center, center, row);
+      font-size: 1.5em;
+      cursor: pointer;
+
+      & .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-color: c.$blue-color;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+
+      &:hover {
+        color: c.$blue-color;
+      }
+    }
   }
 }
 
