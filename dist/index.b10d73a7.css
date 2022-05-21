@@ -15,6 +15,12 @@ li {
   list-style: none;
 }
 
+@media (max-width: 700px) {
+  #sec-header {
+    display: none;
+  }
+}
+
 body {
   background: gray;
   font-family: Roboto, sans-serif;
