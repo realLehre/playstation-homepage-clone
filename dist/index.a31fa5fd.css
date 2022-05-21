@@ -16,6 +16,7 @@ li {
 }
 
 body {
+  background: gray;
   font-family: Roboto, sans-serif;
   font-size: 10px;
 }
@@ -44,6 +45,7 @@ body {
 #pri-header {
   width: 100%;
   height: auto;
+  background: #fff;
 }
 
 .pri-header {
@@ -83,7 +85,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: 500;
   transition: all .2s;
   display: flex;
@@ -116,10 +118,21 @@ body {
 .signin-container .signin {
   color: #fff;
   text-transform: capitalize;
+  cursor: pointer;
   background: #000c;
   border-radius: 50px;
   padding: 4px 10px;
-  font-size: 1.6em;
+  font-size: 1.7em;
+}
+
+.signin-container .signin:hover {
+  background: #00000080;
+}
+
+.signin-container i.fa-search {
+  cursor: pointer;
+  margin-left: 25px;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=index.a31fa5fd.css.map */

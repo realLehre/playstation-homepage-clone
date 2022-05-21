@@ -3,6 +3,7 @@
 body {
   @include c.mainFont;
   font-size: 10px;
+  background: gray;
 }
 
 #sec-header {
@@ -27,6 +28,7 @@ body {
 #pri-header {
   width: 100%;
   height: auto;
+  background: white;
 }
 
 .pri-header {
@@ -51,7 +53,7 @@ body {
 
     & li {
       @include c.flex(space-between, flex-end, row);
-      font-size: 1.3em;
+      font-size: 1.4em;
       font-weight: 500;
       cursor: pointer;
       transition: all 200ms;
@@ -87,7 +89,18 @@ body {
     color: white;
     padding: 4px 10px;
     border-radius: 50px;
-    font-size: 1.6em;
+    font-size: 1.7em;
     text-transform: capitalize;
+    cursor: pointer;
+
+    &:hover {
+      background: c.$gray-color;
+    }
+  }
+
+  & i.fa-search {
+    margin-left: 25px;
+    font-size: 18px;
+    cursor: pointer;
   }
 }
