@@ -33,4 +33,5 @@ body {
   width: 95%;
   height: auto !important;
   margin-inline: auto;
+  @include c.flex(space-between, center, row);
 }
