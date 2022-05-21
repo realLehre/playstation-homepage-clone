@@ -50,8 +50,22 @@ body {
     @include c.flex(space-between, center, row);
 
     & li {
+      @include c.flex(space-between, flex-end, row);
       font-size: 1.3em;
       font-weight: 500;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      & i {
+        transform: translateY(4px);
+        margin-left: 5px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.5);
+      }
     }
   }
 }
