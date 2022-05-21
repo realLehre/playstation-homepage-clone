@@ -1,4 +1,24 @@
+@use 'config' as c;
+
 body {
-  color: red;
+  @include c.mainFont;
+  font-size: 10px;
+}
+
+#sec-header {
+  width: 100%;
   background: black;
+  padding: 10px 0;
+}
+
+.sec-header {
+  @include c.flex(flex-end, flex-end, column);
+
+  & .logo {
+    width: 75px;
+
+    & img {
+      width: 100%;
+    }
+  }
 }

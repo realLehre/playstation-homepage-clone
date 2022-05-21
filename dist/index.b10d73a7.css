@@ -1,6 +1,43 @@
+*, :after, :before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #14120f;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 body {
-  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#sec-header {
+  width: 100%;
   background: #000;
+  padding: 10px 0;
+}
+
+.sec-header {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+
+.sec-header .logo {
+  width: 75px;
+}
+
+.sec-header .logo img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
