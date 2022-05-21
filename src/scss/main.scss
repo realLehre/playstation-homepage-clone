@@ -35,3 +35,18 @@ body {
   margin-inline: auto;
   @include c.flex(space-between, center, row);
 }
+
+.item1 {
+  display: none;
+}
+
+.header-item.item2 {
+  @include c.flex(space-between, center, row);
+}
+
+.links-container {
+  margin-left: 20px;
+  & .links {
+    @include c.flex(space-between, center, row);
+  }
+}

@@ -55,4 +55,26 @@ body {
   height: auto !important;
 }
 
+.item1 {
+  display: none;
+}
+
+.header-item.item2 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.links-container {
+  margin-left: 20px;
+}
+
+.links-container .links {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
 /*# sourceMappingURL=index.b10d73a7.css.map */
