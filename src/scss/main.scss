@@ -45,8 +45,12 @@ body {
 }
 
 .links-container {
-  margin-left: 20px;
+  margin-left: 10px;
   & .links {
     @include c.flex(space-between, center, row);
+
+    & li {
+      font-size: 1.3em;
+    }
   }
 }

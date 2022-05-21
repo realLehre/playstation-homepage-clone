@@ -67,7 +67,7 @@ body {
 }
 
 .links-container {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .links-container .links {
@@ -75,6 +75,10 @@ body {
   justify-content: space-between;
   align-items: center;
   display: flex;
+}
+
+.links-container .links li {
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
