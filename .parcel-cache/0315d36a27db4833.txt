@@ -21,7 +21,7 @@
 97C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\mdn-data\css\properties.json121436361000000000 0
 115C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\caniuse-lite\data\features\webkit-user-drag.js121436361000000000 0
 75C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\base-x132975248468675557 1
-60C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist132976279350381992 1
+60C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist132976289198135904 1
 100C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\caniuse-lite\data\regions\KR.js121436361000000000 0
 128C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\.npmignore121436361000000000 0
 66C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\.gitignore132975279422328941 0
@@ -75,7 +75,7 @@
 80C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\glob-parent132975244300851645 1
 134C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\@parcel\package-manager\test\fixtures\packages\peers\package.json121436361000000000 0
 113C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\@parcel\reporter-dev-server\src\HMRServer.js121436361000000000 0
-66C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\index.html132976265147947679 0
+66C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\index.html132976291088976765 0
 86C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\terser\lib\ast.js121436361000000000 0
 79C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\source-map132975248468546920 1
 93C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\css-tree\dist\csstree.js121436361000000000 0
@@ -107,8 +107,8 @@
 100C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\caniuse-lite\data\regions\PH.js121436361000000000 0
 77C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\chokidar132975244300994212 1
 121C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\@parcel\transformer-js\parcel-swc.linux-x64-gnu.node121436361000000000 0
-77C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\src\scss\_config.scss132976288968861892 0
-74C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\src\scss\main.scss132976281341534841 0
+77C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\src\scss\_config.scss132976292921457933 0
+74C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\src\scss\main.scss132976292466570222 0
 112C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\@parcel\transformer-js\src\JSTransformer.js121436361000000000 0
 84C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\yaml\types.d.ts121436361000000000 0
 91C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\nth-check\lib\index.js121436361000000000 0
@@ -931,7 +931,7 @@
 85C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\clone\.npmignore131546492700000000 0
 87C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\picocolors\LICENSE121436361000000000 0
 104C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\type-fest\source\literal-union.d.ts121436361000000000 0
-99C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\Playstation-Homepage-Clone.3464ddca.js132976278011628844 0
+99C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\Playstation-Homepage-Clone.3464ddca.js132976289197257380 0
 91C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\domelementtype\LICENSE121436361000000000 0
 98C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\type-fest\source\mutable.d.ts121436361000000000 0
 109C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\node_modules\lmdb\prebuilds\win32-x64\node.abi93.node121436361000000000 0
@@ -4392,8 +4392,8 @@
 131C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\images\explore playstation\dualshock-4-listing-thumb-01-ps4-en-12oct20.webp132975291901588651 0
 122C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\images\eden ring\elden-ring-hero-banner-desktop-01-en-24jan22.webp132975289412041600 0
 121C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\images\eden ring\elden-ring-hero-banner-mobile-01-en-24jan22.webp132975290102592036 0
-79C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\index.b10d73a7.css132976279350357893 0
-83C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\index.b10d73a7.css.map132976279350357893 0
-71C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\index.html132976278011619083 0
-103C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\Playstation-Homepage-Clone.3464ddca.js.map132976278011648363 0
-87C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\sony_logo (1).3b57fee3.svg132976278011619083 0
+79C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\index.b10d73a7.css132976289197257380 0
+83C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\index.b10d73a7.css.map132976289197365555 0
+71C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\index.html132976289198000573 0
+103C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\Playstation-Homepage-Clone.3464ddca.js.map132976289197365555 0
+87C:\DESKTOP MAIN\dev projects\Playstation-Homepage-Clone\dist\sony_logo (1).3b57fee3.svg132976289198000573 0
