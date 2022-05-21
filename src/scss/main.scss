@@ -89,6 +89,23 @@ body {
   }
 }
 
+.links-tabs-container {
+  @include c.flex(space-around, center, row);
+  width: 70%;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.link-tab {
+  @include c.flex(center, center, column);
+
+  & .perks-array {
+    @include c.flex(center, center, row);
+  }
+}
+
 .signin-container {
   @include c.flex(space-between, center, row);
 
