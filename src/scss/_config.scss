@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 $maincolor: #623b1c;
 $sec-color: #f6eddd;
 $dark-color: #14120f;
@@ -5,11 +7,11 @@ $dark-milk: #caad8c;
 
 $font-sizes: ();
 
+// @mixin mainFont {
+//   font-family: Arial, Helvetica, sans-serif;
+// }
 @mixin mainFont {
-  font-family: Arial, Helvetica, sans-serif;
-}
-@mixin secFont {
-  font-family: 'Plus Jakarta Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
