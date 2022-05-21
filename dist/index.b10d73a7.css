@@ -19,6 +19,14 @@ li {
   #sec-header {
     display: none;
   }
+
+  .header-item.item1 {
+    display: block;
+  }
+
+  .links-container, .signin-container i.fa-search {
+    display: none;
+  }
 }
 
 body {
@@ -66,6 +74,15 @@ body {
 
 .item1 {
   display: none;
+}
+
+.item1 i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.item1 i:not(:last-child) {
+  margin-right: 35px;
 }
 
 .header-item.item2 {

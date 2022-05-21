@@ -41,6 +41,13 @@ body {
 
 .item1 {
   display: none;
+  & i {
+    font-size: 20px;
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
 }
 
 .header-item.item2 {

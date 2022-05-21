@@ -2,4 +2,19 @@
   #sec-header {
     display: none;
   }
+
+  .header-item.item1 {
+    display: block;
+  }
+
+  .links-container {
+    // position: absolute;
+    display: none;
+  }
+
+  .signin-container {
+    & i.fa-search {
+      display: none;
+    }
+  }
 }
