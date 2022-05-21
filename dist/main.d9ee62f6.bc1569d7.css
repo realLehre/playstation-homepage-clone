@@ -66,7 +66,8 @@ body {
 }
 
 .pri-header {
-  width: 95%;
+  position: relative;
+  width: 100%;
   height: auto !important;
   margin-inline: auto;
   display: flex;
@@ -77,6 +78,7 @@ body {
 
 .item1 {
   display: none;
+  margin-left: 30px;
 }
 .item1 i {
   font-size: 20px;
@@ -91,6 +93,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin-left: 30px;
 }
 
 .links-container {
@@ -132,17 +135,16 @@ body {
 
 .links-tabs-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 70%;
+  width: 100%;
   position: absolute;
   top: 90px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .link-tab {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,11 +153,34 @@ body {
 .link-tab .perks-array {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
 }
+.link-tab .perks-array .perk-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.link-tab .perks-array .perk-item:not(:last-child) {
+  margin-right: 60px;
+}
 .link-tab .perks-array .perk-item img {
-  width: 70px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+.link-tab .perks-array .perk-item p {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.link-tab .link-tab-ad-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 40px;
+  border-top: 2px solid black;
 }
 
 .signin-container {
@@ -163,6 +188,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin-right: 30px;
 }
 .signin-container .signin {
   background: rgba(0, 0, 0, 0.8);
