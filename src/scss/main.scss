@@ -95,7 +95,7 @@ body {
 .links-tabs-container {
   position: absolute;
   width: 100%;
-  top: 90px;
+  top: 70px;
 }
 
 .link-tab {
@@ -113,11 +113,12 @@ body {
       }
 
       & img {
-        width: 60px;
+        width: 55px;
         margin-bottom: 10px;
       }
 
       & p {
+        text-align: center;
         font-size: 1.4em;
         font-weight: 400;
       }
@@ -127,8 +128,7 @@ body {
   .link-tab-ad-info {
     width: 100%;
     @include c.flex(center, center, row);
-    margin-top: 40px;
-    // border-top: 0.5px solid c.$gray-color;
+    margin-top: 30px;
     box-shadow: -0.5px -0.5px 0px rgba(0, 0, 0, 0.3);
     padding: 15px 0;
 
