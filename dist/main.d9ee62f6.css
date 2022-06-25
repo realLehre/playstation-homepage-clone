@@ -157,9 +157,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
 }
 .link-tab .perks-array .perk-item:not(:last-child) {
   margin-right: 60px;
+}
+.link-tab .perks-array .perk-item:hover {
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5), -10px -10px -1px rgba(0, 0, 0, 0.5);
 }
 .link-tab .perks-array .perk-item img {
   width: 55px;

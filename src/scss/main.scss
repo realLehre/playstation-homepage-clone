@@ -107,9 +107,15 @@ body {
 
     & .perk-item {
       @include c.flex(center, center, column);
+      cursor: pointer;
 
       &:not(:last-child) {
         margin-right: 60px;
+      }
+
+      &:hover {
+        box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5),
+          -10px -10px -1px rgba(0, 0, 0, 0.5);
       }
 
       & img {
