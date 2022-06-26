@@ -37,6 +37,7 @@ li {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
+  background: gray;
 }
 
 #sec-header {
@@ -141,6 +142,9 @@ body {
 
 .link-tab {
   width: 100%;
+  display: none;
+}
+.link-tab.open {
   display: flex;
   justify-content: center;
   align-items: center;

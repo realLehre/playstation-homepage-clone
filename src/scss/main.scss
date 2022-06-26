@@ -4,7 +4,7 @@
 body {
   @include c.mainFont;
   font-size: 10px;
-  // background: gray;
+  background: gray;
 }
 
 #sec-header {
@@ -100,7 +100,12 @@ body {
 
 .link-tab {
   width: 100%;
-  @include c.flex(center, center, column);
+  // @include c.flex(center, center, column);
+  display: none;
+
+  &.open {
+    @include c.flex(center, center, column);
+  }
 
   & .perks-array {
     @include c.flex(center, flex-end, row);
