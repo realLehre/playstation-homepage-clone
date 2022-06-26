@@ -98,6 +98,10 @@ body {
   top: 70px;
 }
 
+.pri-header.open .link-tab {
+  @include c.flex(center, center, column);
+}
+
 .link-tab {
   width: 100%;
   // @include c.flex(center, center, column);

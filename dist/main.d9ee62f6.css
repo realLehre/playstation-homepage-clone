@@ -140,6 +140,13 @@ body {
   top: 70px;
 }
 
+.pri-header.open .link-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .link-tab {
   width: 100%;
   display: none;

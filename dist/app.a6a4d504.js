@@ -119,12 +119,69 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"src/app.js":[function(require,module,exports) {
 var header = document.querySelector('#pri-header');
+var mainHeader = document.querySelector('.pri-header');
 var tabBtns = document.querySelectorAll('.link');
-var linkTabs = document.querySelectorAll('.link-tab');
-tabBtns.forEach(function (tabBtn) {
-  tabBtn.addEventListener('click', function (e) {
+var linkTabs = document.querySelectorAll('.link-tab'); // header.addEventListener('click', (e) => {
+//   const id = e.target.dataset.id;
+// });
+
+tabBtns.forEach(function (btn) {
+  btn.addEventListener('click', function (e) {
     var id = e.target.dataset.id;
-    var tab = document.getElementById(id);
+
+    if (id == 'games') {
+      document.getElementById('games').classList.toggle('open');
+      document.getElementById('hardware').classList.remove('open');
+      document.getElementById('services').classList.remove('open');
+      document.getElementById('news').classList.remove('open');
+      document.getElementById('shop').classList.remove('open');
+      document.getElementById('support').classList.remove('open');
+    }
+
+    if (id == 'hardware') {
+      document.getElementById('hardware').classList.toggle('open');
+      document.getElementById('games').classList.remove('open');
+      document.getElementById('services').classList.remove('open');
+      document.getElementById('news').classList.remove('open');
+      document.getElementById('shop').classList.remove('open');
+      document.getElementById('support').classList.remove('open');
+    }
+
+    if (id == 'services') {
+      document.getElementById('services').classList.toggle('open');
+      document.getElementById('games').classList.remove('open');
+      document.getElementById('hardware').classList.remove('open');
+      document.getElementById('news').classList.remove('open');
+      document.getElementById('shop').classList.remove('open');
+      document.getElementById('support').classList.remove('open');
+    }
+
+    if (id == 'news') {
+      document.getElementById('news').classList.toggle('open');
+      document.getElementById('games').classList.remove('open');
+      document.getElementById('hardware').classList.remove('open');
+      document.getElementById('services').classList.remove('open');
+      document.getElementById('shop').classList.remove('open');
+      document.getElementById('support').classList.remove('open');
+    }
+
+    if (id == 'shop') {
+      document.getElementById('shop').classList.toggle('open');
+      document.getElementById('games').classList.remove('open');
+      document.getElementById('services').classList.remove('open');
+      document.getElementById('news').classList.remove('open');
+      document.getElementById('hardware').classList.remove('open');
+      document.getElementById('support').classList.remove('open');
+    }
+
+    if (id == 'support') {
+      document.getElementById('support').classList.toggle('open');
+      document.getElementById('games').classList.remove('open');
+      document.getElementById('services').classList.remove('open');
+      document.getElementById('news').classList.remove('open');
+      document.getElementById('shop').classList.remove('open');
+      document.getElementById('hardware').classList.remove('open');
+    }
   });
 });
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
