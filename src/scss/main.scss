@@ -92,11 +92,26 @@ body {
   }
 }
 
-.links-tabs-container {
+#tabs-container {
   position: absolute;
   width: 100%;
-  top: 70px;
+  height: 0;
+  overflow: hidden;
+  top: 50px;
+  background: transparent;
+  @include c.transition;
+
+  &.open {
+    height: 223px;
+    background: white;
+  }
 }
+
+// .links-tabs-container {
+//   position: absolute;
+//   width: 100%;
+//   top: 70px;
+// }
 
 .pri-header.open .link-tab {
   @include c.flex(center, center, column);
@@ -104,8 +119,8 @@ body {
 
 .link-tab {
   width: 100%;
-  // @include c.flex(center, center, column);
   display: none;
+  @include c.transition;
 
   &.open {
     @include c.flex(center, center, column);
