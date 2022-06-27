@@ -211,12 +211,16 @@ header.addEventListener('click', function (e) {
   }
 
   links.forEach(function (link) {
-    link.addEventListener('dblclick', function () {
-      tabs.forEach(function (tab) {
-        tab.classList.remove('open');
-      });
+    link.addEventListener('click', function () {
+      link.classList.add('test');
     });
   });
+
+  for (i = 0; i < links.length; i++) {
+    if (links[i].classList.contains('test')) {
+      tab.classList.remove('open');
+    }
+  }
 });
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

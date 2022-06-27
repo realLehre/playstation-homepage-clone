@@ -104,10 +104,14 @@ header.addEventListener('click', (e) => {
   }
 
   links.forEach((link) => {
-    link.addEventListener('dblclick', () => {
-      tabs.forEach((tab) => {
-        tab.classList.remove('open');
-      });
+    link.addEventListener('click', () => {
+      link.classList.add('test');
     });
   });
+
+  for (i = 0; i < links.length; i++) {
+    if (links[i].classList.contains('test')) {
+      tab.classList.remove('open');
+    }
+  }
 });
